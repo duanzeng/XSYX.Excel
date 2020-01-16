@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>xsyx</Authors>
+    <Company>xsyx</Company>
+    <Description>使用EPPlus将数据导出为Excel</Description>
+    <PackageProjectUrl>https://github.com/duanzeng/XSYX.Excel</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/duanzeng/XSYX.Excel.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags></PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="4.5.2.1" />
+  </ItemGroup>
+
+</Project>
