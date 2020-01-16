@@ -10,6 +10,9 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags></PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright></Copyright>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
