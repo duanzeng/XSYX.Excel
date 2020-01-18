@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XSYX.Excel</name>
+    </assembly>
+    <members>
+        <member name="T:XSYX.Excel.ExportHelper">
+            <summary>
+            导出帮助类
+            </summary>
+        </member>
+        <member name="F:XSYX.Excel.ExportHelper.sheetMaxRows">
+            <summary>
+            sheet页最大行数
+            </summary>
+        </member>
+        <member name="M:XSYX.Excel.ExportHelper.ExportExcel(System.Data.DataTable,System.String[],System.String,System.String)">
+            <summary>
+            导出Excel文件,超过sheet页行数会自动增加sheet
+            </summary>
+            <param name="dt">数据集合</param>
+            <param name="columnNames">列名称</param>
+            <param name="fileName">文件名称，需要以xlsx结尾</param>
+            <param name="sheetName">sheet名称</param>
+        </member>
+        <member name="M:XSYX.Excel.ExportHelper.ExportExcelBytes(System.Data.DataTable,System.String[],System.String)">
+            <summary>
+            导出Excel,超过sheet页行数会自动增加sheet
+            </summary>
+            <param name="dt"></param>
+            <param name="columnNames"></param>
+            <param name="sheetName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XSYX.Excel.ExportHelper.ExportExcel``1(System.Collections.Generic.List{``0},System.String[],System.String,System.String)">
+            <summary>
+            导出Excel文件,超过sheet页行数会自动增加sheet
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="dataList">数据集合</param>
+            <param name="columnNames">列头</param>
+            <param name="fileName">文件名称，需要以xlsx结尾</param>
+            <param name="sheetName">sheet名称</param>
+        </member>
+        <member name="M:XSYX.Excel.ExportHelper.ExportExcelBytes``1(System.Collections.Generic.List{``0},System.String[],System.String)">
+            <summary>
+            导出Excel,超过sheet页行数会自动增加sheet
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="dataList">数据集合</param>
+            <param name="columnNames">列头集合</param>
+            <param name="sheetName">sheet名称</param>
+            <returns>文件字节</returns>
+        </member>
+    </members>
+</doc>

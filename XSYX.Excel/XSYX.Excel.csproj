@@ -13,11 +13,16 @@
     <Copyright></Copyright>
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
+    <ApplicationIcon />
+    <Win32Resource />
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
-    <DocumentationFile></DocumentationFile>
+    <DocumentationFile>F:\code\XSYX.Excel\XSYX.Excel\XSYX.Excel\XSYX.Excel.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
